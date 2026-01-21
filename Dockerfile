@@ -1,6 +1,6 @@
 FROM ocaml/opam:latest
 
-MAINTAINER Yago Iglesias <me@yagoiglesias.fr>
+LABEL org.opencontainers.image.authors="Yago Iglesias <me@yagoiglesias.fr>"
 
 # Install dune
 RUN opam update --yes
